@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess The Number</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="main-card">
+      <div class="flex" id="heading">
+        <h2 class="heading">GUESS THE NUMBER BETWEEN 1 AND 100</h2>
+      </div> 
+
+      <div>
+        <form action="" id="form">
+          <div class="flex" id="input-div">
+            <input type="number", id="number", placeholder="Enter The Number", onfocus="this.placeholder = ''", onblur="this.placeholder = 'Enter The Number'">
+          </div>
+          
+          <div class="flex" class="button-div" id="play-div">
+            <button type="submit" class="button" id="playButton">Submit The Number!</button>
+          </div>
+
+          <div class="flex" class="button-div" id="restart-div">
+            <button type="reset" class="button">Restart</button>
+          </div>
+        </form> 
+
+        <div class="p-div">
+          <p id="message-result"></p>
+        </div>
+
+        <div class="p-div-2">
+          <p id="message-guesses-left"></p>
+        </div>
+      </div> 
+    </div>  
+  </div>
+
+
+  <script src="./js/app.js"></script>
+</body>
+</html>

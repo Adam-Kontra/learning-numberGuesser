@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+#main-card {
+  border: 1px solid black;
+  width: 700px;
+  height: 382px;
+  border-radius: 7px;
+  box-shadow: 0px 5px 10px rgba(0, 0.2, 0.5, 0.7);
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+#button {
+  margin: 1rem;
+}
+
+#input-div input {
+  width: 15rem;
+  height: 1.8rem;
+  margin-top: 15px;
+  background-color: rgb(243, 243, 243);
+  border-style: none;
+  border: 1px solid black;
+  border-radius: 6.5px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+#number:focus {
+  outline: none;
+  background-color: rgb(251, 255, 245);
+  box-shadow: 0px 0.5px 1px rgba(0, 0.2, 0.5, 0.7);
+}
+
+#number:hover {
+  background-color: rgb(251, 255, 245);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#play-div {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.button {
+  width: 10rem;
+  height: 1.8rem;
+  border-style: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(243, 243, 243);
+}
+
+
+.button:hover {
+  background-color: rgb(251, 255, 245);
+}
+
+
+.button:active {
+  background-color: rgb(243, 243, 243);
+}
+
+.button:focus {
+  outline: none;
+}
+
+
+#restart-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.p-div {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -1px;
+}
+
+.p-div-2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -30px;
+}
+
+#restart-div button {
+  color: red;
+}
+
+#play-button:active {
+  background-color: rgb(243, 243, 243);
+}
+
+
